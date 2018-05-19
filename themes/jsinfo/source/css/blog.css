@@ -1,0 +1,286 @@
+@font-face {
+  font-family: VazirFD;
+  src: url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Farsi-Digits/Vazir-FD.eot");
+  src: url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Farsi-Digits/Vazir-FD.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Farsi-Digits/Vazir-FD.woff2")
+      format("woff2"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Farsi-Digits/Vazir-FD.woff")
+      format("woff"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Farsi-Digits/Vazir-FD.ttf")
+      format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir.eot");
+  src: url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir.woff2")
+      format("woff2"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir.woff")
+      format("woff"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir.ttf")
+      format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Bold.eot");
+  src: url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Bold.woff2")
+      format("woff2"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Bold.woff")
+      format("woff"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Bold.ttf")
+      format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Light.eot");
+  src: url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Light.woff2")
+      format("woff2"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Light.woff")
+      format("woff"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Light.ttf")
+      format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Medium.eot");
+  src: url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Medium.woff2")
+      format("woff2"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Medium.woff")
+      format("woff"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Medium.ttf")
+      format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Thin.eot");
+  src: url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Thin.woff2")
+      format("woff2"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Thin.woff")
+      format("woff"),
+    url("https://cdn.rawgit.com/rastikerdar/vazir-font/v17.1.1/dist/Vazir-Thin.ttf")
+      format("truetype");
+  font-weight: 100;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #212121;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body {
+  font-family: Vazir, serif;
+  direction: rtl;
+}
+
+input,
+select,
+textarea {
+  font-family: Vazir, serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 10px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header-top {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header-top-search,
+.header-top-about {
+  width: 30%;
+  display: flex;
+  align-items: baseline;
+}
+
+.header-top-about {
+  justify-content: flex-end;
+}
+
+.header-top-search label {
+  cursor: pointer;
+  padding-left: 5px;
+}
+.header-top-search input {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.header-top-center {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-top-center a {
+  display: flex;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul a {
+  text-decoration: none;
+  padding: 10px;
+  color: #9e9e9e;
+  display: flex;
+  transition: color 0.2s;
+}
+
+nav ul a:hover {
+  color: #616161;
+}
+
+.tell-me-more {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #00e676;
+  color: #00e676;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  transition: all 0.3s linear;
+}
+
+.tell-me-more:hover {
+  background-color: #00e676;
+  color: #fff;
+}
+
+article {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.article-featured-image img {
+  width: 100%;
+}
+
+article h1 {
+  margin-bottom: 5px;
+}
+
+article h1 a {
+  text-decoration: none;
+}
+
+article .article-meta {
+  margin-bottom: 15px;
+  font-family: VazirFD, sans-serif;
+  font-size: 0.8rem;
+}
+
+article .article-meta span {
+  color: #bdbdbd;
+}
+
+article .article-more {
+  display: flex;
+  justify-content: flex-end;
+}
+
+article .article-more a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: all 0.2s linear;
+  color: #9e9e9e;
+}
+article .article-more a:hover {
+  color: #212121;
+}
+
+article .article-more a i {
+  margin-right: 10px;
+  font-size: 1rem;
+  transition: all 0.2s linear;
+  color: #9e9e9e;
+}
+
+article .article-more a:hover i {
+  color: #212121;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  direction: ltr !important;
+}

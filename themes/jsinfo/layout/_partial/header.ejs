@@ -1,0 +1,21 @@
+<header>
+  <div class="header-top">
+    <div class="header-top-search">
+      <!--<label for="search-box"><i class="fas fa-search"></i></label>
+      <input type="text" id="search-box">!-->
+    </div>
+    <div class="header-top-center">
+      <a href="<%- url_for('/') %>"><%- image_tag('images/logo.jpg') %></a>
+    </div>
+    <div class="header-top-about">
+       <!--<a href="#" class="tell-me-more">درباره ما بیشتر بدانید</a>!-->
+    </div>
+  </div>
+  <nav>
+    <ul class="categories-nav">
+    <% for (var i in theme.menu){ %>
+      <li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
+    <% } %>
+    </ul>
+  </nav>
+</header>
